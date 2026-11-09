@@ -414,3 +414,8 @@ bridge 在后台执行，消息状态写入 `bridge/messages.json`：
 - `DSH Watch` 源码：本仓库，供个人使用。
 - ZeroTier One Android：GPL-3.0（以官方仓库为准）；本包是未修改内核、仅替换启动 Activity 的个人适配版，未公开分发。
 - DeepSeek Harness logo：来自本机 DSH Web 的 `favicon-dark.svg`，仅用于个人设备识别。
+---
+
+## 许可证
+
+MIT License，见 [LICENSE](LICENSE)。
