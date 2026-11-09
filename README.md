@@ -423,3 +423,9 @@ bridge 在后台执行，消息状态写入 `bridge/messages.json`：
 ## 许可证
 
 MIT License，见 [LICENSE](LICENSE)。
+
+## 安全
+
+- 桥接是 HTTP + Bearer token，只应在 ZeroTier 私网内使用；	oken 只来自 ridge/config.json，**没有硬编码的备用令牌**。
+- 换令牌后必须验证旧令牌返回 401（只验新令牌可用不算数）。
+- 细节与轮换步骤见 [SECURITY.md](SECURITY.md)。
