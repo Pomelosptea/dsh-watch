@@ -1,4 +1,4 @@
-﻿# DSH Watch · OPPO Watch X2
+# DSH Watch · OPPO Watch X2
 
 把 **DeepSeek Harness** 装进手表：抬腕按住鲸鱼 logo 说话，或者输入文字，指令经 **ZeroTier 虚拟局域网**送到主机，由主机上的 DSH 执行，结果回到表盘。
 
