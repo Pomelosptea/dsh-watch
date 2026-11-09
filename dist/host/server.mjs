@@ -653,6 +653,7 @@ function authorized(req) {
   const bearer = header.startsWith('Bearer ') ? header.slice(7) : '';
   const direct = req.headers['x-dsh-token'];
   return bearer === config.token || direct === config.token;
+
 }
 
 function readBody(req, limit = 64 * 1024) {
