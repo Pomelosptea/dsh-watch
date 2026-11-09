@@ -1,0 +1,58 @@
+# .gradle / 构建
+.gradle/
+build/
+app/build/
+local.properties
+*.iml
+.idea/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# 签名与密钥（绝对不要提交）
+*.keystore
+*.jks
+keystore.properties
+
+# Android 产物
+*.apk
+*.aab
+*.idsig
+*.dex
+
+# 桥接运行态：含聊天内容、主机地址、会话 ID
+bridge/config.json
+bridge/state.json
+bridge/messages.json
+bridge/session-debug.jsonl
+bridge/*.ndjson
+bridge/test-request*.json
+bridge/final-test.ndjson
+probe/
+
+# 分发目录里带令牌的配置（只提交 *.example.json）
+dist/host/config.json
+
+# 一次性工作区
+tmp/
+logs/
+shots/
+
+# 反编译中间产物（体积大，可用脚本重新生成）
+zerotier-watch/zt-smali/
+zerotier-watch/baksmali/
+zerotier-watch/classes/
+zerotier-watch/dex/
+zerotier-watch/check/
+zerotier-watch/*.apk
+zerotier-watch/*.idsig
+
+# 第三方原始包与工具 jar（按 README 自行下载）
+zerotier-original.apk
+tools/*.jar
+tools/*.pom
+
+# 系统垃圾
+Thumbs.db
+.DS_Store
+desktop.ini

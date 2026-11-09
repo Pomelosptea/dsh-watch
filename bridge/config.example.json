@@ -1,0 +1,11 @@
+{
+  "bind": "0.0.0.0",
+  "port": 18787,
+  "token": "change-me",
+  "dshHome": "",
+  "dshBaseUrl": "",
+  "workspace": "",
+  "autoApprove": false,
+  "maxText": 2000,
+  "requestTimeoutMs": 600000
+}
